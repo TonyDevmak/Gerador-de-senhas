@@ -1,5 +1,5 @@
 const numeroSenha = document.querySelector('.parametro-senha__texto');
-let tamanhoSenha = 12;
+let tamanhoSenha = 6;
 numeroSenha.textContent = tamanhoSenha;
 
 const letrasMaiusculas = 'ABCDEFGHIJKLMNOPRSTUVWXYZ';
