@@ -2,10 +2,10 @@
 
 :root {
     --branco: white;
-    --cor-de-fundo: #00162e;
-    --fundo-senha: #00244d;
-    --fundo-texto: #001e40;
-    --borda: #0075ff;
+    --cor-de-fundo:#000000;
+    --fundo-senha: #1C1C1C;
+    --fundo-texto: #1C1C1C;
+    --borda: #7B68EE;
     --roboto: 'Roboto', sans-serif;
     --roboto-mono: 'Roboto mono', monospace;
 }
@@ -119,7 +119,7 @@ label {
 }
 
 .barra {
-    background-color: var(--fundo-senha);
+    background-color: #666666;
     height: 30px;
     width: 100%;
 }
@@ -148,6 +148,7 @@ label {
 .parametros-senha-textos {
     display: flex;
     justify-content: space-between;
+
 }
 
 @media screen and (min-widht: 768px) {
